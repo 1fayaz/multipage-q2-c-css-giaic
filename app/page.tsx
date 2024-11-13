@@ -9,11 +9,11 @@ import About from "./About/page";
 const Page= ()=>{
   return (
     <div>
-        <Header></Header>
-       <About></About>
+       
        <Services></Services>
-       <Contact></Contact>
-        <Footer></Footer>
+       
+       
+        
     </div>
   )
 };
