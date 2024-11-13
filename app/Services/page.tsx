@@ -38,7 +38,7 @@ const Services=()=>{
                      <li ><strong>Expert Planning & Coordination</strong>: Well help you organize schedule and coordinate all aspects of your event so you dont have to worry about a thing</li>
                   </div>
                   <div  className={styles.themeImageContainer}>
-                     <Image src="/images/p6.jpg" alt="Engagement Theme" />
+                     <Image src="/images/p6.jpg" alt="Engagement Theme" width={100} height={200} />
                      <p>Engagement theme</p>
                   </div>
                   </div>
@@ -46,14 +46,14 @@ const Services=()=>{
                      <li><strong>Creative Design and Décor</strong>: We bring your ideas to life with stunning designs décor and themes that match your style and make your event one to remember</li>
                   </div>
                   <div className={styles.themeImageContainer}>
-                     <Image src="/images/p7.jpeg" alt="Conference Theme" />
+                     <Image src="/images/p7.jpeg" alt="Conference Theme" width={100} height={200} />
                      <p>Conference Theme</p>
                   </div>
                   <div>
                      <li><strong>Stress Free Execution</strong>: Our team manages everything on the day of the event so you can relax and enjoy the moment</li>
                   </div>
                   <div className={styles.themeImageContainer}>
-                     <Image src="/images/p5.jpg" alt="Party Theme" />
+                     <Image src="/images/p5.jpg" alt="Party Theme" width={100} height={200}/>
                      <p>Party Theme</p>
                   </div>
                </fieldset>
