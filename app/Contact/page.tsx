@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Contact/Contact.module.css"
+import styles from "../Contact/contact.module.css"
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
