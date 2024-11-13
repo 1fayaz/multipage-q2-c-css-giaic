@@ -1,0 +1,122 @@
+/* Styling for About Container */
+.aboutContainer {
+   padding: 50px 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+   font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+ }
+ 
+ /* Scoped Styling for Fieldset */
+ .aboutContainer fieldset {
+   border: 1px solid #ccc;
+   margin-bottom: 30px;
+   padding: 25px;
+   border-radius: 8px;
+   background-color: #f9f9f9;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Scoped Styling for Legend */
+ .aboutContainer legend {
+   font-size: 1.6rem;
+   font-weight: bold;
+   color: #333;
+   background-color: #f1c40f;
+   padding: 10px 20px;
+   border-radius: 5px;
+   width: auto;
+   display: inline-block;
+ }
+ 
+ /* Scoped Styling for Heading inside About Container */
+ .aboutContainer h3 {
+   color: #555;
+   font-size: 1.2rem;
+   margin-top: 20px;
+   line-height: 1.6;
+   text-align: center;
+   font-style: italic;
+ }
+ 
+ /* Styling for Paragraph */
+ .aboutContainer h2 {
+   font-size: 1rem;
+   color: #666;
+   line-height: 1.6;
+   text-align: center;
+   margin-top: 10px;
+ }
+ 
+ /* Styling for Team Section */
+ .teamSection {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   gap: 20px;
+   justify-items: center;
+   padding-top: 20px;
+ }
+ 
+ /* Styling for Each Team Member */
+ .teamMember {
+   text-align: center;
+   padding: 10px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   width: 100%;
+   max-width: 250px;
+   margin: 0 auto; /* Center the team member cards */
+ }
+ 
+ /* Hover effect for team members */
+ .teamMember:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+ }
+ 
+ /* Styling for Team Member Image */
+ .teamMember img {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 15px;
+   border: 3px solid #f1c40f;
+ }
+ 
+ /* Styling for Team Member Name */
+ .teamMember p {
+   margin: 0;
+   font-weight: bold;
+   color: #333;
+   font-size: 1.1rem;
+ }
+ 
+ /* Responsive Design */
+ @media (max-width: 768px) {
+   .aboutContainer {
+     padding: 30px 15px;
+   }
+ 
+   .aboutContainer fieldset {
+     padding: 20px;
+   }
+ 
+   .aboutContainer h3 {
+     font-size: 1.1rem;
+   }
+ 
+   .aboutContainer p {
+     font-size: 1rem;
+   }
+ 
+   .teamSection {
+     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust for mobile screens */
+   }
+ 
+   .teamMember {
+     max-width: 200px;
+   }
+ }
+ 
